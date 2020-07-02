@@ -1,0 +1,4 @@
+all: CODESCHOOL
+
+CODESCHOOL: main.c CODESCHOOL.c
+	gcc main.c CODESCHOOL.c -o CODESCHOOL

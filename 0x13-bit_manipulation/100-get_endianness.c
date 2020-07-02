@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include "CODESCHOOL.h"
+
+/**
+ * get_endianness -  checks the endianness
+ * Return: void
+ *
+ */
+
+int get_endianness(void)
+{
+	unsigned int x = 1;
+	char *c = (char *) &x;
+
+	if (*c)
+	{
+		return (1);
+	}
+	return (0);
+}
