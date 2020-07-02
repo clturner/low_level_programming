@@ -1,24 +1,30 @@
-Functions in this directory deal with adding , changing and manipulating linked \
-lists
+# More Linked Lists
 
-0-print_listint.c - Prints all the elements of a linked list of ints
-Prototype: size_t print_listint(const listint_t *h);
+## Description
 
-1-listint_len.c - returns the number of elements in a linked list
-Prototype: size_t listint_len(const listint_t *h);
+This Repo has some of my (Christopher Turner) projects for codeschool.
+The focus of these projects is learning the C Programming Language.
 
-2-add_nodeint.c - Adds a new node at the beginning of a linked list
-Prototype: listint_t *add_nodeint(listint_t **head, const int n);
+## Environment
 
-3-add_nodeint_end.c - function that adds a new node at the end of a linked list
-Prototype: 3-add_nodeint_end.c
+* __OS:__ Ubuntu 14.04 LTS
+* __Compiler:__ gcc 4.8.4 (C90)
+* __Language:__ C
 
-4-free_listint.c - function that free's a linked list
-Prototype: void free_listint(listint_t *head);
+## Primary Concepts Learned
 
-5-free_listint2.c - function that free's a linked list
-Prototype: void free_listint2(listint_t **head);
+  * More linked lists!
+  * When and why using linked lists vs arrays
+  * How to build and use linked lists using structs
 
-6-pop_listint.c - deletes head node of linked list, returns the head node's data\
-(n)
-Prototype: int pop_listint(listint_t **head);
+### C Functions used
+
+* ``malloc``, ``free`` and ``exit``
+
+## Author
+
+Christopher Turner, [www.ecoportfolio.earth](http://www.ecoportfolio.earth/)
+
+## License
+
+MIT License

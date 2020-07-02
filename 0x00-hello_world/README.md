@@ -1,4 +1,32 @@
-![alt text](http://www.alloweb.org/wp-content/uploads/2017/11/logo_CODESCHOOL_school_startup_levee_fonds_alloweb-1.jpg)
----
-# Low-level programming & Algorithm  
-## 0x00. C - Hello, World
+# Hello, World of C Language
+
+## Description
+
+This Repo has some of my (Christopher Turner) projects for codeschool.
+The focus of these projects is learning the C Programming Language.  In
+specific, these projects are designed to show how the GNU C Compiler functions,
+codeschool C Language syntax and style recommendations.  And how to print a basic
+string from the main() function in a C program.  Primarily, these scripts are
+used to compile C code and return the differet source code for each stage of the
+compilation process.  Including stages: Preprocessor, Compiler, Assembler, and
+Linker.  Additionally, the .c files demonstrate printing strings without using
+``printf()`` nor ``puts()``.  __Environment:__ Ubuntu 14.04 LTS  __Compiler:__
+gcc 4.8.4 (C90).
+
+## Primary Concepts Learned
+
+* print text using ``printf()``, ``puts()`` and ``putchar()``
+* get the size of a specific type using the unary operator sizeof
+* compile using gcc, phases of compilation, and source code for each stage
+* codeschool Syntax and Style for C Language Files including comments
+
+## Primary commands / functions used:
+``gcc``, ``printf``, ``main()``, ``puts``, ``putchar``
+
+## Author
+
+Christopher Turner.	Check out my website http://www.ecoportfolio.earth/
+
+## License
+
+MIT License

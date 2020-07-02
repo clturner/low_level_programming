@@ -1,6 +1,28 @@
-<p align="center">
-  <img src="https://www.CODESCHOOL.com/assets/CODESCHOOL-logo-1cc451260ca3cd297def53f2250a9794810667c7ca7b5fa5879a569a457bf16f.png" width="350"/>
-</p>
-<font size="6"><b>Bit Manipulation</b></font>
-<br>
-<font size="4">How to manipulation bits and use bitwise operators</font>
+# C - Bit manipulation
+
+## Description
+
+This Repo has some of my (Christopher Turner) projects for codeschool.
+The focus of these projects is learning the C Programming Language.
+
+## Environment
+
+* __OS:__ Ubuntu 14.04 LTS
+* __Compiler:__ gcc 4.8.4 (C90)
+* __Language:__ C
+
+## Primary Concepts Learned
+
+  * How to manipulation bits and use bitwise operators
+
+### C Functions used
+
+* ``malloc``, ``free`` and ``exit``
+
+## Author
+
+Christopher Turner, [www.ecoportfolio.earth](http://www.ecoportfolio.earth/)
+
+## License
+
+MIT License

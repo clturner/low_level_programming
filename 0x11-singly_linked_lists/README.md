@@ -1,13 +1,29 @@
-Functions for creating , traversing, deleting and manipulating linked lists.
+# Linked Lists
 
-0-print_list.c - function that prints all the elements of a linked list
-prototype: size_t print_list(const list_t *h);
+## Description
 
-1-list_len.c - function that returns the number of elements in a linked list
-prototype: size_t list_len(const list_t *h);
+This Repo has some of my (Christopher Turner) projects for codeschool.
+The focus of these projects is learning the C Programming Language.
 
-2-add_node.c - function that adds a new node at the beginning of a linked list
-prototype:list_t *add_node(list_t **head, const char *str);
+## Environment
 
-3-add_node_end.c - function that adds a new node at the end of a linked list
-prototype: list_t *add_node_end(list_t **head, const char *str);
+* __OS:__ Ubuntu 14.04 LTS
+* __Compiler:__ gcc 4.8.4 (C90)
+* __Language:__ C
+
+## Primary Concepts Learned
+
+  * When and why using linked lists vs arrays
+  * How to build and use linked lists
+
+### C Functions used
+
+* ``malloc``, ``free`` and ``exit``
+
+## Author
+
+Christopher Turner, [www.ecoportfolio.earth](http://www.ecoportfolio.earth/)
+
+## License
+
+MIT License
